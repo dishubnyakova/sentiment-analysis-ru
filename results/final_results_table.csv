@@ -1,0 +1,7 @@
+Model,Accuracy,Precision,Recall,F1-score
+ruBERT-tiny2 tuned,0.7092,0.7081,0.7092,0.7076
+ruBERT-tiny2,0.692,0.6901,0.692,0.69
+Linear SVM,0.6061,0.6015,0.6061,0.5975
+Logistic Regression,0.6106,0.6207,0.6106,0.5921
+Multinomial Naive Bayes,0.5957,0.65,0.5957,0.5521
+DummyClassifier,0.483,0.2333,0.483,0.3147
