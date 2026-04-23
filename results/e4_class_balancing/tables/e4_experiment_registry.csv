@@ -1,0 +1,7 @@
+﻿experiment_id,model_family,model,class_weight_mode,representation,accuracy,precision_weighted,recall_weighted,weighted_f1,macro_f1,train_time_sec,seed,dataset,train_split,test_split,status
+E4-1,SGDClassifier hinge,SGDClassifier hinge (default),default,"char TF-IDF (3,5)",0.682,0.6854,0.682,0.6741,0.6517,0.473,42,RuSentiTweet,train_final,test_final,completed
+E4-2,RidgeClassifier,RidgeClassifier (balanced),balanced,"char TF-IDF (3,5)",0.6694,0.6681,0.6694,0.6686,0.6513,0.4589,42,RuSentiTweet,train_final,test_final,completed
+E4-3,SGDClassifier hinge,SGDClassifier hinge (balanced),balanced,"char TF-IDF (3,5)",0.6703,0.6678,0.6703,0.6683,0.6488,0.5682,42,RuSentiTweet,train_final,test_final,completed
+E4-4,Linear SVM,Linear SVM (balanced),balanced,"char TF-IDF (3,5)",0.6707,0.6684,0.6707,0.6678,0.6484,0.844,42,RuSentiTweet,train_final,test_final,completed
+E4-5,Linear SVM,Linear SVM (default),default,"char TF-IDF (3,5)",0.6716,0.6707,0.6716,0.6662,0.6452,0.6899,42,RuSentiTweet,train_final,test_final,completed
+E4-6,RidgeClassifier,RidgeClassifier (default),default,"char TF-IDF (3,5)",0.6712,0.6743,0.6712,0.6622,0.6382,0.4715,42,RuSentiTweet,train_final,test_final,completed

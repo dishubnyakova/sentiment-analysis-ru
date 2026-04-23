@@ -1,0 +1,43 @@
+
+E4 CLASS BALANCING SUMMARY
+
+Goal:
+Study the effect of class balancing on strong classical models
+using the best representation from E2.
+
+Dataset:
+RuSentiTweet
+
+Train shape:
+(7957, 3)
+
+Test shape:
+(2211, 3)
+
+Representation:
+char TF-IDF (3,5)
+
+Models:
+- SGDClassifier hinge
+- Linear SVM
+- RidgeClassifier
+
+Best overall model:
+SGDClassifier hinge (default)
+
+Best metrics:
+accuracy = 0.682
+weighted_f1 = 0.6741
+macro_f1 = 0.6517
+
+Largest balancing effect:
+RidgeClassifier
+
+Weighted F1 ranking:
+                         model  weighted_f1  macro_f1
+ SGDClassifier hinge (default)       0.6741    0.6517
+    RidgeClassifier (balanced)       0.6686    0.6513
+SGDClassifier hinge (balanced)       0.6683    0.6488
+         Linear SVM (balanced)       0.6678    0.6484
+          Linear SVM (default)       0.6662    0.6452
+     RidgeClassifier (default)       0.6622    0.6382

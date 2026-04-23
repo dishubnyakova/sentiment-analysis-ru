@@ -1,0 +1,19 @@
+﻿model_family,class_weight_mode,representation,class,precision,recall,f1,support
+SGDClassifier hinge,default,"char TF-IDF (3,5)",negative,0.6748,0.5848,0.6266,660
+SGDClassifier hinge,default,"char TF-IDF (3,5)",neutral,0.6751,0.8287,0.744,1068
+SGDClassifier hinge,default,"char TF-IDF (3,5)",positive,0.7226,0.4907,0.5845,483
+SGDClassifier hinge,balanced,"char TF-IDF (3,5)",negative,0.6405,0.6182,0.6291,660
+SGDClassifier hinge,balanced,"char TF-IDF (3,5)",neutral,0.7069,0.7519,0.7287,1068
+SGDClassifier hinge,balanced,"char TF-IDF (3,5)",positive,0.6187,0.5611,0.5885,483
+Linear SVM,balanced,"char TF-IDF (3,5)",negative,0.6381,0.6197,0.6287,660
+Linear SVM,balanced,"char TF-IDF (3,5)",neutral,0.6973,0.7612,0.7278,1068
+Linear SVM,balanced,"char TF-IDF (3,5)",positive,0.646,0.5404,0.5885,483
+RidgeClassifier,default,"char TF-IDF (3,5)",negative,0.6697,0.5652,0.613,660
+RidgeClassifier,default,"char TF-IDF (3,5)",neutral,0.6639,0.8268,0.7364,1068
+RidgeClassifier,default,"char TF-IDF (3,5)",positive,0.7037,0.472,0.5651,483
+RidgeClassifier,balanced,"char TF-IDF (3,5)",negative,0.6244,0.6197,0.6221,660
+RidgeClassifier,balanced,"char TF-IDF (3,5)",neutral,0.7152,0.736,0.7254,1068
+RidgeClassifier,balanced,"char TF-IDF (3,5)",positive,0.6236,0.5901,0.6064,483
+Linear SVM,default,"char TF-IDF (3,5)",negative,0.6479,0.5939,0.6198,660
+Linear SVM,default,"char TF-IDF (3,5)",neutral,0.6812,0.7921,0.7325,1068
+Linear SVM,default,"char TF-IDF (3,5)",positive,0.6786,0.5114,0.5832,483

@@ -1,0 +1,27 @@
+{
+    "experiment": "E4 class balancing study",
+    "dataset": "RuSentiTweet",
+    "train_file": "train_final.csv",
+    "test_file": "test_final.csv",
+    "seed": 42,
+    "representation": {
+        "type": "TfidfVectorizer",
+        "lowercase": true,
+        "analyzer": "char_wb",
+        "ngram_range": [
+            3,
+            5
+        ],
+        "min_df": 2,
+        "max_df": 0.95
+    },
+    "models": [
+        "SGDClassifier hinge",
+        "Linear SVM",
+        "RidgeClassifier"
+    ],
+    "modes": [
+        "default",
+        "balanced"
+    ]
+}
