@@ -1,0 +1,25 @@
+
+E7 SECOND DATASET IN-DOMAIN SUMMARY
+
+Second dataset:
+RuSentiment
+
+Target classes:
+negative / neutral / positive
+
+Removed classes:
+['skip', 'speech'] (train), ['skip', 'speech'] (test)
+
+Train final shape:
+(18920, 2)
+
+Validation final shape:
+(2103, 2)
+
+Test final shape:
+(2214, 2)
+
+Results:
+                            model  accuracy  weighted_f1  macro_f1
+ruBERT-tiny2 tuned on RuSentiment    0.7665       0.7698    0.7083
+SGDClassifier hinge + char TF-IDF    0.7796       0.7660    0.6686

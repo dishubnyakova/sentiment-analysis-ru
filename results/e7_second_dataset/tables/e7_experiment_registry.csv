@@ -1,0 +1,3 @@
+﻿experiment_id,model,representation,dataset,accuracy,precision_weighted,recall_weighted,weighted_f1,macro_f1,train_time_sec,seed,train_split,val_split,test_split,status
+E7-1,ruBERT-tiny2 tuned on RuSentiment,Tokenizer,RuSentiment,0.7665,0.7755,0.7665,0.7698,0.7083,152.5717,42,rusentiment_train_final,rusentiment_val_final,rusentiment_test_final,completed
+E7-2,SGDClassifier hinge + char TF-IDF,"char TF-IDF (3,5)",RuSentiment,0.7796,0.7746,0.7796,0.766,0.6686,0.5965,42,rusentiment_train_final,rusentiment_val_final,rusentiment_test_final,completed

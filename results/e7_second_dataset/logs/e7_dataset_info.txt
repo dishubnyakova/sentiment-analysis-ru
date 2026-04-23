@@ -1,0 +1,49 @@
+
+E7 SECOND DATASET DESCRIPTION
+
+Dataset: RuSentiment
+
+Train raw shape: (28218, 2)
+Test raw shape: (2967, 2)
+
+Target classes:
+['negative', 'neutral', 'positive']
+
+Removed classes from train:
+['skip', 'speech']
+
+Removed classes from test:
+['skip', 'speech']
+
+Filtered train shape:
+(21023, 2)
+
+Filtered test shape:
+(2214, 2)
+
+Train final shape:
+(18920, 2)
+
+Validation final shape:
+(2103, 2)
+
+Test final shape:
+(2214, 2)
+
+Train class distribution:
+label
+neutral     11264
+positive     6106
+negative     3653
+
+Validation class distribution:
+label
+neutral     1127
+positive     611
+negative     365
+
+Test class distribution:
+label
+neutral     1420
+positive     536
+negative     258
