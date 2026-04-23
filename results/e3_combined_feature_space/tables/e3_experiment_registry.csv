@@ -1,0 +1,4 @@
+﻿experiment_id,model,representation,accuracy,precision_weighted,recall_weighted,weighted_f1,macro_f1,train_time_sec,seed,dataset,train_split,test_split,status
+E3-1,RidgeClassifier,combined word+char TF-IDF,0.6703,0.6717,0.6703,0.6622,0.6388,1.2741,42,RuSentiTweet,train_final,test_final,completed
+E3-2,SGDClassifier hinge,combined word+char TF-IDF,0.6653,0.6632,0.6653,0.6595,0.6371,1.5134,42,RuSentiTweet,train_final,test_final,completed
+E3-3,Linear SVM,combined word+char TF-IDF,0.6644,0.6633,0.6644,0.6581,0.6359,2.2917,42,RuSentiTweet,train_final,test_final,completed
