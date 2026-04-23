@@ -1,0 +1,40 @@
+{
+    "experiment": "E5 classical ensemble study",
+    "dataset": "RuSentiTweet",
+    "train_file": "train_final.csv",
+    "test_file": "test_final.csv",
+    "seed": 42,
+    "representation": {
+        "type": "TfidfVectorizer",
+        "lowercase": true,
+        "analyzer": "char_wb",
+        "ngram_range": [
+            3,
+            5
+        ],
+        "min_df": 2,
+        "max_df": 0.95
+    },
+    "base_models": {
+        "SGDClassifier hinge default": {
+            "class_weight": null,
+            "loss": "hinge"
+        },
+        "RidgeClassifier balanced": {
+            "class_weight": "balanced"
+        },
+        "Linear SVM balanced": {
+            "class_weight": "balanced"
+        }
+    },
+    "ensemble_methods": [
+        "hard_voting",
+        "soft_voting_equal",
+        "soft_voting_weighted"
+    ],
+    "weighted_soft_weights_raw": {
+        "SGDClassifier hinge default": 0.6741,
+        "RidgeClassifier balanced": 0.6686,
+        "Linear SVM balanced": 0.6678
+    }
+}

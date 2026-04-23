@@ -1,0 +1,4 @@
+﻿model,ensemble_type,representation,accuracy,precision_weighted,recall_weighted,weighted_f1,macro_f1,train_time_sec,seed
+Classical ensemble hard voting,hard_voting,"char TF-IDF (3,5)",0.6716,0.669,0.6716,0.6686,0.6486,3.4531,42
+Classical ensemble soft voting equal,soft_voting_equal,"char TF-IDF (3,5)",0.6771,0.6805,0.6771,0.668,0.644,7.4607,42
+Classical ensemble soft voting weighted,soft_voting_weighted,"char TF-IDF (3,5)",0.6771,0.6805,0.6771,0.668,0.644,7.4607,42

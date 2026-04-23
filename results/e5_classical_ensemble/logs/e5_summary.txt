@@ -1,0 +1,51 @@
+
+E5 CLASSICAL ENSEMBLE SUMMARY
+
+Goal:
+Evaluate whether ensembles of strong classical models improve performance
+over the best standalone classical model.
+
+Dataset:
+RuSentiTweet
+
+Train shape:
+(7957, 3)
+
+Test shape:
+(2211, 3)
+
+Representation:
+char TF-IDF (3,5)
+
+Base models:
+- SGDClassifier hinge (default)
+- RidgeClassifier (balanced)
+- Linear SVM (balanced)
+
+Ensemble methods:
+- hard voting
+- soft voting equal
+- soft voting weighted
+
+Best ensemble:
+Classical ensemble hard voting
+
+Best ensemble metrics:
+accuracy = 0.6716
+weighted_f1 = 0.6686
+macro_f1 = 0.6486
+
+Best standalone classical reference:
+SGDClassifier hinge + char TF-IDF (3,5)
+weighted_f1 = 0.6741
+macro_f1 = 0.6517
+
+Delta vs best standalone:
+weighted_f1 delta = -0.0055
+macro_f1 delta = -0.0031
+
+Full ranking:
+                                  model  weighted_f1  macro_f1
+         Classical ensemble hard voting       0.6686    0.6486
+   Classical ensemble soft voting equal       0.6680    0.6440
+Classical ensemble soft voting weighted       0.6680    0.6440
