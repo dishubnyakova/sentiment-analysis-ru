@@ -1,0 +1,5 @@
+﻿source_dataset,target_dataset,model_family,model,representation,accuracy,precision_weighted,recall_weighted,weighted_f1,macro_f1,runtime_sec,seed,weighted_f1_in_domain,macro_f1_in_domain,weighted_f1_drop_vs_in_domain,macro_f1_drop_vs_in_domain
+RuSentiTweet,RuSentiment,classical,SGDClassifier hinge + char TF-IDF,"char TF-IDF (3,5)",0.6409,0.717,0.6409,0.6597,0.5932,1.883,42,0.6741,0.6517,-0.0144,-0.0585
+RuSentiment,RuSentiTweet,bert,ruBERT-tiny2 tuned on RuSentiment,Tokenizer,0.6563,0.6875,0.6563,0.6347,0.6066,54.9708,42,0.7698,0.7083,-0.1351,-0.1017
+RuSentiTweet,RuSentiment,bert,ruBERT-tiny2 tuned on RuSentiTweet,Tokenizer,0.5989,0.7354,0.5989,0.6151,0.5736,55.4775,42,0.6958,0.681,-0.0807,-0.1074
+RuSentiment,RuSentiTweet,classical,SGDClassifier hinge + char TF-IDF,"char TF-IDF (3,5)",0.6223,0.7025,0.6223,0.578,0.5455,5.6996,42,0.766,0.6686,-0.188,-0.1231

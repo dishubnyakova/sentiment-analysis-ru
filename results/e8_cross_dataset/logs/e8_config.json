@@ -1,0 +1,31 @@
+{
+    "experiment": "E8 cross-dataset transfer",
+    "seed": 42,
+    "label_order": [
+        "negative",
+        "neutral",
+        "positive"
+    ],
+    "directions": [
+        "RuSentiTweet -> RuSentiment",
+        "RuSentiment -> RuSentiTweet"
+    ],
+    "classical_model": {
+        "model": "SGDClassifier hinge",
+        "representation": {
+            "type": "TfidfVectorizer",
+            "lowercase": true,
+            "analyzer": "char_wb",
+            "ngram_range": [
+                3,
+                5
+            ],
+            "min_df": 2,
+            "max_df": 0.95
+        }
+    },
+    "bert_models": {
+        "rusentitweet_tuned_path": "/content/drive/MyDrive/rubert_tiny2_sentiment_model_tuned",
+        "rusentiment_tuned_path": "/content/drive/MyDrive/rusentiment_rubert_tiny_tuned_model"
+    }
+}

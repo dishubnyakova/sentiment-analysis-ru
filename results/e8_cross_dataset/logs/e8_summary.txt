@@ -1,0 +1,32 @@
+
+E8 CROSS-DATASET SUMMARY
+
+Goal:
+Evaluate transferability of models between RuSentiTweet and RuSentiment.
+
+Directions:
+- RuSentiTweet -> RuSentiment
+- RuSentiment -> RuSentiTweet
+
+Models:
+- Classical: SGDClassifier hinge + char TF-IDF (3,5)
+- BERT: tuned ruBERT-tiny2
+
+Best cross-dataset result:
+source_dataset = RuSentiTweet
+target_dataset = RuSentiment
+model = SGDClassifier hinge + char TF-IDF
+weighted_f1 = 0.6597
+macro_f1 = 0.5932
+
+Full ranking:
+source_dataset target_dataset model_family  weighted_f1  macro_f1
+  RuSentiTweet    RuSentiment    classical       0.6597    0.5932
+  RuSentiTweet    RuSentiment         bert       0.6151    0.5736
+   RuSentiment   RuSentiTweet    classical       0.5780    0.5455
+
+Transfer drop table:
+source_dataset target_dataset model_family  weighted_f1  weighted_f1_in_domain  weighted_f1_drop_vs_in_domain
+  RuSentiTweet    RuSentiment    classical       0.6597                 0.6741                        -0.0144
+  RuSentiTweet    RuSentiment         bert       0.6151                 0.6958                        -0.0807
+   RuSentiment   RuSentiTweet    classical       0.5780                 0.7660                        -0.1880
