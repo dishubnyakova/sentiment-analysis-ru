@@ -1,0 +1,30 @@
+{
+    "experiment": "E1 classical model expansion",
+    "dataset": "RuSentiTweet",
+    "train_file": "train_final.csv",
+    "test_file": "test_final.csv",
+    "seed": 42,
+    "main_vectorizer": {
+        "type": "TfidfVectorizer",
+        "lowercase": true,
+        "analyzer": "word",
+        "ngram_range": [
+            1,
+            2
+        ],
+        "min_df": 2,
+        "max_df": 0.95
+    },
+    "bernoulli_vectorizer": {
+        "type": "CountVectorizer",
+        "binary": true,
+        "lowercase": true,
+        "analyzer": "word",
+        "ngram_range": [
+            1,
+            2
+        ],
+        "min_df": 2,
+        "max_df": 0.95
+    }
+}
