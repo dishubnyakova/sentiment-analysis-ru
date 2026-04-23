@@ -1,0 +1,40 @@
+
+E2 FEATURE SPACE STUDY SUMMARY
+
+Goal:
+Compare word-level and character-level TF-IDF representations
+for top classical models on a fixed split.
+
+Dataset:
+RuSentiTweet
+
+Train shape:
+(7957, 3)
+
+Test shape:
+(2211, 3)
+
+Models:
+- SGDClassifier hinge
+- RidgeClassifier
+- Linear SVM
+
+Representations:
+- word TF-IDF (1,2)
+- char TF-IDF (3,5)
+
+Best combination:
+model = SGDClassifier hinge
+representation = char TF-IDF (3,5)
+accuracy = 0.682
+weighted_f1 = 0.6741
+macro_f1 = 0.6517
+
+Full ranking:
+              model    representation  accuracy  weighted_f1  macro_f1
+SGDClassifier hinge char TF-IDF (3,5)    0.6820       0.6741    0.6517
+         Linear SVM char TF-IDF (3,5)    0.6716       0.6662    0.6452
+    RidgeClassifier char TF-IDF (3,5)    0.6712       0.6622    0.6382
+SGDClassifier hinge word TF-IDF (1,2)    0.6174       0.6051    0.5767
+    RidgeClassifier word TF-IDF (1,2)    0.6124       0.6015    0.5734
+         Linear SVM word TF-IDF (1,2)    0.6097       0.6011    0.5737

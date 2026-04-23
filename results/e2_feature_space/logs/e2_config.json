@@ -1,0 +1,36 @@
+{
+    "experiment": "E2 feature space study",
+    "dataset": "RuSentiTweet",
+    "train_file": "train_final.csv",
+    "test_file": "test_final.csv",
+    "seed": 42,
+    "models": [
+        "SGDClassifier hinge",
+        "RidgeClassifier",
+        "Linear SVM"
+    ],
+    "representations": {
+        "word_tfidf": {
+            "type": "TfidfVectorizer",
+            "lowercase": true,
+            "analyzer": "word",
+            "ngram_range": [
+                1,
+                2
+            ],
+            "min_df": 2,
+            "max_df": 0.95
+        },
+        "char_tfidf": {
+            "type": "TfidfVectorizer",
+            "lowercase": true,
+            "analyzer": "char_wb",
+            "ngram_range": [
+                3,
+                5
+            ],
+            "min_df": 2,
+            "max_df": 0.95
+        }
+    }
+}
