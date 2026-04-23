@@ -1,0 +1,7 @@
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+*.pyc
+models/rubert_tiny2_sentiment_model/
+models/rubert_tiny2_sentiment_model_tuned/
+*.safetensors

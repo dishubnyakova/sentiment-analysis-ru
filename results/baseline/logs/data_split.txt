@@ -1,0 +1,36 @@
+
+E0 SPLIT DESCRIPTION
+
+Source train shape after filtering: (8842, 3)
+Source test shape after filtering: (2211, 3)
+
+Split strategy:
+- train_df split into train_final and val_final
+- test_df kept unchanged as final test set
+
+Random seed: 42
+Stratification: yes
+Validation size from train_df: 0.1
+
+Final shapes:
+train_final_df: (7957, 3)
+val_final_df: (885, 3)
+test_final_df: (2211, 3)
+
+Train_final class distribution:
+label
+neutral     3845
+negative    2374
+positive    1738
+
+Val_final class distribution:
+label
+neutral     428
+negative    264
+positive    193
+
+Test_final class distribution:
+label
+neutral     1068
+negative     660
+positive     483

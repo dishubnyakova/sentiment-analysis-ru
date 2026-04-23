@@ -1,0 +1,18 @@
+
+E0 CLASSICAL BASELINE SUMMARY
+
+Vectorizer:
+{'lowercase': True, 'analyzer': 'word', 'ngram_range': (1, 2), 'min_df': 2, 'max_df': 0.95, 'max_features': None}
+
+Models:
+- DummyClassifier
+- Multinomial Naive Bayes
+- Logistic Regression
+- Linear SVM
+
+Results:
+                  model    representation  accuracy  precision_weighted  recall_weighted  weighted_f1  macro_f1  train_time_sec  seed              notes
+             Linear SVM TF-IDF word (1,2)    0.6097              0.6057           0.6097       0.6011    0.5737          0.1526    42 classical baseline
+    Logistic Regression TF-IDF word (1,2)    0.6083              0.6183           0.6083       0.5888    0.5546          3.5057    42 classical baseline
+Multinomial Naive Bayes TF-IDF word (1,2)    0.5929              0.6423           0.5929       0.5482    0.4999          0.0303    42 classical baseline
+        DummyClassifier TF-IDF word (1,2)    0.4830              0.2333           0.4830       0.3147    0.2171          0.0079    42 classical baseline

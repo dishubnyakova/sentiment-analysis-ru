@@ -1,0 +1,25 @@
+
+E0 PREPROCESSING AND PARAMETERS
+
+DATA SPLITS USED:
+- train_final_df
+- val_final_df
+- test_df
+
+CLASSICAL PREPROCESSING CONFIG:
+{'explicit_cleaning_function': False, 'duplicate_removal': 'done earlier by text', 'used_columns': ['text', 'label'], 'target_classes': ['negative', 'neutral', 'positive'], 'note': 'texts are passed directly to TfidfVectorizer without separate clean_text()'}
+
+TF-IDF CONFIG:
+{'lowercase': True, 'analyzer': 'word', 'ngram_range': (1, 2), 'min_df': 2, 'max_df': 0.95, 'max_features': None}
+
+CLASSICAL MODELS CONFIG:
+{'DummyClassifier': {'strategy': 'most_frequent'}, 'MultinomialNB': {}, 'LogisticRegression': {'max_iter': 1000, 'random_state': 42}, 'LinearSVC': {'random_state': 42}}
+
+BERT COMMON CONFIG:
+{'model_name': 'cointegrated/rubert-tiny2', 'tokenizer_name': 'cointegrated/rubert-tiny2', 'label2id': {'negative': 0, 'neutral': 1, 'positive': 2}, 'id2label': {0: 'negative', 1: 'neutral', 2: 'positive'}, 'padding': 'max_length', 'truncation': True, 'max_length': 128}
+
+BERT BASELINE CONFIG:
+{'num_train_epochs': 2, 'learning_rate': 2e-05, 'per_device_train_batch_size': 16, 'per_device_eval_batch_size': 16, 'weight_decay': 0.01, 'logging_steps': 100, 'metric_for_best_model': 'f1_weighted', 'greater_is_better': True, 'fp16': False}
+
+BERT TUNED CONFIG:
+{'num_train_epochs': 3, 'learning_rate': 3e-05, 'per_device_train_batch_size': 16, 'per_device_eval_batch_size': 16, 'weight_decay': 0.01, 'logging_steps': 100, 'metric_for_best_model': 'f1_weighted', 'greater_is_better': True, 'fp16': False}

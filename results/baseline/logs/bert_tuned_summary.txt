@@ -1,0 +1,24 @@
+
+E0 BERT TUNED SUMMARY
+
+Model name:
+cointegrated/rubert-tiny2
+
+Common config:
+{'model_name': 'cointegrated/rubert-tiny2', 'tokenizer_name': 'cointegrated/rubert-tiny2', 'label2id': {'negative': 0, 'neutral': 1, 'positive': 2}, 'id2label': {0: 'negative', 1: 'neutral', 2: 'positive'}, 'padding': 'max_length', 'truncation': True, 'max_length': 128}
+
+Tuned training config:
+{'num_train_epochs': 3, 'learning_rate': 3e-05, 'per_device_train_batch_size': 16, 'per_device_eval_batch_size': 16, 'weight_decay': 0.01, 'logging_steps': 100, 'metric_for_best_model': 'f1_weighted', 'greater_is_better': True, 'fp16': True}
+
+Validation results:
+{'eval_loss': 0.704223096370697, 'eval_accuracy': 0.6949152542372882, 'eval_precision_weighted': 0.6940097404504184, 'eval_recall_weighted': 0.6949152542372882, 'eval_f1_weighted': 0.6943224648432099, 'eval_f1_macro': 0.6801006867492955, 'eval_runtime': 0.5344, 'eval_samples_per_second': 1655.964, 'eval_steps_per_second': 104.784, 'epoch': 3.0}
+
+Test results:
+accuracy=0.697
+precision_weighted=0.6957
+recall_weighted=0.697
+weighted_f1=0.6958
+macro_f1=0.681
+
+Train time (s):
+53.5373

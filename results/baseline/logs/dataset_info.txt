@@ -1,0 +1,44 @@
+
+E0 DATASET DESCRIPTION
+
+Train raw shape: (10713, 3)
+Test raw shape: (2679, 3)
+
+Columns in train:
+['text', 'label', 'id']
+
+Columns in test:
+['text', 'label', 'id']
+
+Target classes:
+['negative', 'neutral', 'positive']
+
+Raw train classes:
+['negative', 'neutral', 'positive', 'skip', 'speech']
+
+Raw test classes:
+['negative', 'neutral', 'positive', 'skip', 'speech']
+
+Removed classes from train:
+['skip', 'speech']
+
+Removed classes from test:
+['skip', 'speech']
+
+Filtered train shape:
+(8842, 3)
+
+Filtered test shape:
+(2211, 3)
+
+Train class distribution after filtering:
+label
+neutral     4273
+negative    2638
+positive    1931
+
+Test class distribution after filtering:
+label
+neutral     1068
+negative     660
+positive     483

@@ -1,0 +1,58 @@
+
+E0 FINAL SUMMARY
+
+Goal:
+Reproduce and formalize the baseline experiments for sentiment classification
+of Russian short texts.
+
+Dataset:
+RuSentiTweet
+
+Target classes:
+negative / neutral / positive
+
+Filtered dataset sizes:
+train_df = (8842, 3)
+train_final_df = (7957, 3)
+val_final_df = (885, 3)
+test_df = (2211, 3)
+
+Removed classes:
+skip, speech
+
+Best overall model:
+ruBERT-tiny2 tuned
+accuracy = 0.697
+weighted_f1 = 0.6958
+macro_f1 = 0.681
+
+Best classical model:
+Linear SVM
+accuracy = 0.6097
+weighted_f1 = 0.6011
+macro_f1 = 0.5737
+
+Final ranking:
+                  model  accuracy  weighted_f1  macro_f1
+     ruBERT-tiny2 tuned    0.6970       0.6958    0.6810
+           ruBERT-tiny2    0.6748       0.6613    0.6322
+             Linear SVM    0.6097       0.6011    0.5737
+    Logistic Regression    0.6083       0.5888    0.5546
+Multinomial Naive Bayes    0.5929       0.5482    0.4999
+        DummyClassifier    0.4830       0.3147    0.2171
+
+Artifacts prepared:
+- cleaned train/test files
+- split description
+- preprocessing configs
+- classical reports
+- BERT reports
+- confusion matrices
+- model comparison charts
+- torchinfo
+- ONNX for Netron
+- Netron screenshots
+
+Note:
+BERT experiments in E0 were run with a correct train/validation/test scheme:
+validation was used inside Trainer, and test was used only for final evaluation.

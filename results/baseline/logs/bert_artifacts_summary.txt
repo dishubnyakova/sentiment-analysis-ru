@@ -1,0 +1,21 @@
+
+E0 BERT ARTIFACTS SUMMARY
+
+Saved files:
+- e0_artifacts/bert/bert_epochs_f1.png
+- e0_artifacts/bert/torchinfo_rubert_tuned.txt
+- e0_artifacts/bert/rubert_tiny2_tuned.onnx
+
+Model:
+cointegrated/rubert-tiny2
+
+Torch device:
+cuda
+
+Epoch weighted F1 values:
+[(1.0, 0.6821374972837227), (2.0, 0.6932580813978384), (3.0, 0.6918383783132649), (3.0, 0.6943224648432099)]
+
+Note:
+The ONNX file is intended for visualization in Netron.
+After downloading it locally, open it in Netron and save screenshots
+for the top and bottom parts of the architecture graph.

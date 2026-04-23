@@ -1,0 +1,5 @@
+
+Experiment: E0 baseline reproduction
+Notebook: 00_baseline_reproduction.ipynb
+Seed: 42
+Device: cpu

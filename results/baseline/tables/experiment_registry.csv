@@ -1,0 +1,7 @@
+﻿experiment_id,model,representation,accuracy,precision_weighted,recall_weighted,weighted_f1,macro_f1,train_time_sec,seed,notes,dataset,train_split,val_split,test_split,status
+E0-bert-tuned,ruBERT-tiny2 tuned,Tokenizer,0.697,0.6957,0.697,0.6958,0.681,53.5373,42,transformer tuned,RuSentiTweet,train_final,val_final,test_final,completed
+E0-bert-base,ruBERT-tiny2,Tokenizer,0.6748,0.6862,0.6748,0.6613,0.6322,46.0276,42,transformer baseline,RuSentiTweet,train_final,val_final,test_final,completed
+E0-svm,Linear SVM,"TF-IDF word (1,2)",0.6097,0.6057,0.6097,0.6011,0.5737,0.1084,42,classical baseline,RuSentiTweet,train_final,val_final,test_final,completed
+E0-logreg,Logistic Regression,"TF-IDF word (1,2)",0.6083,0.6183,0.6083,0.5888,0.5546,0.8411,42,classical baseline,RuSentiTweet,train_final,val_final,test_final,completed
+E0-mnb,Multinomial Naive Bayes,"TF-IDF word (1,2)",0.5929,0.6423,0.5929,0.5482,0.4999,0.0133,42,classical baseline,RuSentiTweet,train_final,val_final,test_final,completed
+E0-dummy,DummyClassifier,"TF-IDF word (1,2)",0.483,0.2333,0.483,0.3147,0.2171,0.0063,42,classical baseline,RuSentiTweet,train_final,val_final,test_final,completed
