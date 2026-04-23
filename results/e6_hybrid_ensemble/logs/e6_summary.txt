@@ -1,0 +1,53 @@
+
+E6 HYBRID ENSEMBLE SUMMARY
+
+Goal:
+Evaluate whether hybrid ensemble of the best classical model and tuned BERT
+improves performance.
+
+Dataset:
+RuSentiTweet
+
+Train shape:
+(7957, 3)
+
+Validation shape:
+(885, 3)
+
+Test shape:
+(2211, 3)
+
+Classical component:
+SGDClassifier hinge + char TF-IDF (3,5) + calibration
+
+BERT component:
+ruBERT-tiny2 tuned
+
+Validation-based weights:
+classical = 0.4887
+bert = 0.5113
+
+Best hybrid:
+Hybrid ensemble weighted
+
+Best hybrid weighted_f1:
+0.7232
+
+Standalone classical weighted_f1:
+0.6668
+
+Standalone BERT weighted_f1:
+0.6958
+
+Delta vs standalone classical:
+0.0564
+
+Delta vs standalone BERT:
+0.0274
+
+Full ranking:
+                   model               ensemble_type  weighted_f1  macro_f1
+Hybrid ensemble weighted soft_voting_weighted_by_val       0.7232    0.7070
+   Hybrid ensemble equal           soft_voting_equal       0.7218    0.7053
+   Standalone BERT tuned              reference_test       0.6958    0.6808
+    Standalone classical              reference_test       0.6668    0.6424

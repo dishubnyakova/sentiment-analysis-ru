@@ -1,0 +1,5 @@
+﻿experiment_id,model,ensemble_type,accuracy,precision_weighted,recall_weighted,weighted_f1,macro_f1,extra_time_sec,seed,dataset,train_split,val_split,test_split,status
+E6-1,Hybrid ensemble weighted,soft_voting_weighted_by_val,0.7273,0.7292,0.7273,0.7232,0.707,63.8727,42,RuSentiTweet,train_final,val_final,test_final,completed
+E6-2,Hybrid ensemble equal,soft_voting_equal,0.7259,0.728,0.7259,0.7218,0.7053,63.8727,42,RuSentiTweet,train_final,val_final,test_final,completed
+E6-3,Standalone BERT tuned,reference_test,0.697,0.6956,0.697,0.6958,0.6808,60.6938,42,RuSentiTweet,train_final,val_final,test_final,completed
+E6-4,Standalone classical,reference_test,0.6762,0.6804,0.6762,0.6668,0.6424,3.1789,42,RuSentiTweet,train_final,val_final,test_final,completed

@@ -1,0 +1,28 @@
+{
+    "experiment": "E6 hybrid ensemble classical + BERT",
+    "dataset": "RuSentiTweet",
+    "train_file": "train_final.csv",
+    "val_file": "val_final.csv",
+    "test_file": "test_final.csv",
+    "seed": 42,
+    "classical_model": {
+        "model": "SGDClassifier hinge",
+        "calibration": "CalibratedClassifierCV",
+        "representation": {
+            "type": "TfidfVectorizer",
+            "lowercase": true,
+            "analyzer": "char_wb",
+            "ngram_range": [
+                3,
+                5
+            ],
+            "min_df": 2,
+            "max_df": 0.95
+        }
+    },
+    "bert_model_path": "rubert_tiny2_sentiment_model_tuned",
+    "hybrid_methods": [
+        "soft_voting_equal",
+        "soft_voting_weighted_by_val"
+    ]
+}
