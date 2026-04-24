@@ -1,0 +1,43 @@
+
+E9 ERROR ANALYSIS SUMMARY
+
+Dataset:
+RuSentiTweet test_final
+
+Models compared:
+- classical: SGDClassifier hinge + char TF-IDF (3,5)
+- bert: ruBERT-tiny2 tuned
+- hybrid: weighted ensemble
+
+Total samples:
+2211
+
+Error counts:
+classical_errors = 703
+bert_errors = 670
+hybrid_errors = 603
+
+Intersection groups:
+only_classical_wrong = 220
+only_bert_wrong = 137
+both_wrong_hybrid_correct = 3
+hybrid_wrong_but_one_base_correct = 195
+all_wrong = 408
+
+Top confusion pairs by model:
+  y_true   y_pred  count     model
+negative  neutral    243 classical
+positive  neutral    183 classical
+ neutral negative    123 classical
+positive negative     63 classical
+ neutral positive     60 classical
+negative  neutral    176      bert
+ neutral negative    166      bert
+positive  neutral    128      bert
+ neutral positive     85      bert
+negative positive     58      bert
+negative  neutral    198    hybrid
+positive  neutral    142    hybrid
+ neutral negative    120    hybrid
+positive negative     58    hybrid
+ neutral positive     54    hybrid

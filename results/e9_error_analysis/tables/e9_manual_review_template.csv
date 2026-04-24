@@ -1,0 +1,67 @@
+﻿text,label,id,y_true,pred_classical,pred_bert,pred_hybrid,classical_correct,bert_correct,hybrid_correct,group,error_reason,comment
+(пушка на Караульной горе больше не стреляет БА-БАХ!!) #красноярск,negative,1342696727808274432,negative,neutral,negative,negative,False,True,True,only_classical_wrong,,
+"Ради теста воткнул в планшет SDR-приемник
+
+Поймал ""Наше радио""
+
+Вернул себе 2006й",neutral,1269916816664641543,neutral,positive,neutral,neutral,False,True,True,only_classical_wrong,,
+"@Oleg_Ilchenko Как можно было выходить за муж за человека, не глянув как его зовут в Твитере до свадьбы",neutral,1335474555725508608,neutral,positive,neutral,neutral,False,True,True,only_classical_wrong,,
+"@CulturalBaby ого они реально упомянули эспу
+спасибо большое за перевод ты большая умничка🧡",positive,1330920707627347968,positive,negative,positive,positive,False,True,True,only_classical_wrong,,
+от красных носков неприятно несёт гетеронормативностью,negative,1317695224035090432,negative,neutral,negative,negative,False,True,True,only_classical_wrong,,
+"сначала арт для фавочки
+потом арт с Сонхва
+
+ту продактив я уже умираю",negative,1291812761266200577,negative,neutral,negative,negative,False,True,True,only_classical_wrong,,
+"ТВОЮ МАТЬ СЁДЗИ ЧЕ ТЫ ТВОРИШЬ
+АААААааАаАаАаАа
+#нана #аниме #тупыемужики",negative,1315016389191757827,negative,positive,negative,negative,False,True,True,only_classical_wrong,,
+"@GONEFLUDD132 Скорейшего выздоровления и привет от овсянки, там уже пост наделали)",positive,1327340395181846531,positive,neutral,positive,positive,False,True,True,only_classical_wrong,,
+Для закона многие плоды запретные https://t.co/Y6xf0xMxM2,neutral,1236882566415876096,neutral,negative,neutral,neutral,False,True,True,only_classical_wrong,,
+"@downsolow13 Лучший сонный пельмешек, раз уж на то пошло)",positive,1314477555353899008,positive,neutral,positive,positive,False,True,True,only_classical_wrong,,
+"@yunhoough а я угрожаю откусить печень, насть все нормально 🤝",negative,1268876524410810368,negative,neutral,negative,negative,False,True,True,only_classical_wrong,,
+"@KoshavilM оо, а как назывался? я в детстве обожала такие истории, даже не сказать, сколько перечитала))",positive,1273980447106752514,positive,negative,positive,positive,False,True,True,only_classical_wrong,,
+она победила,positive,1319264036362530816,positive,neutral,positive,positive,False,True,True,only_classical_wrong,,
+@prostolapysya @AyupovRustam Я думаю после муравейника ему будет не до извращений,negative,1233039438944620545,negative,neutral,negative,negative,False,True,True,only_classical_wrong,,
+"@grunyasb @antoxatoxa0608 Теперь полиция буде отстанавливать и проверять маски. Не купил у Чемезова- штраф!!!Поперло, так поперло!!!",negative,1247725177820950528,negative,neutral,negative,negative,False,True,True,only_classical_wrong,,
+"@dinosaurgrgrgr ПО ДЖАКУРАМАМ ЭТО ПАБЛИК НАРОЧАН, А МОЁ ЭТО ПРОСТО ПО ДЖАКУРАЮ 👉👈",neutral,1283877788198608897,neutral,neutral,negative,neutral,True,False,True,only_bert_wrong,,
+@OvvCheck у меня. ⚰️,neutral,1288500200613597184,neutral,neutral,positive,neutral,True,False,True,only_bert_wrong,,
+@wCZLmLwTtbDokr5 Это какой-то пипец))),negative,1322575317702246402,negative,negative,positive,negative,True,False,True,only_bert_wrong,,
+@douknowwhou это буквально ты мучача https://t.co/Q9RlFnERYn,neutral,1285565043476750336,neutral,neutral,negative,neutral,True,False,True,only_bert_wrong,,
+@keter_eles Я тоже 😂✌🏻,neutral,1265998711768920064,neutral,neutral,positive,neutral,True,False,True,only_bert_wrong,,
+«СМУ-6 Инвестиции»: Успей купить – последние квартиры в ЖК «Любовь и Голуби»: Реализация проекта «Любовь и Голуби» вышла на «финишную…,neutral,1212299931064700928,neutral,neutral,positive,neutral,True,False,True,only_bert_wrong,,
+@lostgalaxy8 Если что мне не сложно 👀,neutral,1236193664579366912,neutral,neutral,negative,neutral,True,False,True,only_bert_wrong,,
+"Помогите выбрать лучшего игрока в октябре! Голосуйте по ссылке ⚡️
+
+https://t.co/cvvsUxzwhW https://t.co/JJ2dLlSNxP",neutral,1321073303910494208,neutral,neutral,positive,neutral,True,False,True,only_bert_wrong,,
+"@EKriskevich 17 лет, лучшие годы сейчас, не понимаю этой романтики по ностальгии",neutral,1223268480620863488,neutral,neutral,positive,neutral,True,False,True,only_bert_wrong,,
+@AngelNeo4 Нет я софт😔,neutral,1343226090916110339,neutral,neutral,positive,neutral,True,False,True,only_bert_wrong,,
+"Вроде бы классно не заходить в соц.сети подолгу, но так лень потом читать и перечитывать что было в ленте",neutral,1223022149126017024,neutral,neutral,negative,neutral,True,False,True,only_bert_wrong,,
+"@meh_seven Мы никогда не найдем ответ на этот вопрос...
+...ПОТОМУ ЧТО ЭТО ОТ НАЧАЛА ДО КОНЦА НАГЛАЯ ЛОЖЬ!",negative,1270763126561087489,negative,negative,neutral,negative,True,False,True,only_bert_wrong,,
+@_toorushka_ хей 😼,neutral,1335950294656708609,neutral,neutral,positive,neutral,True,False,True,only_bert_wrong,,
+@dofvmin Опять работать:(,negative,1319749170530570240,negative,negative,neutral,negative,True,False,True,only_bert_wrong,,
+боже думала никогда больше не вернусь в свой универ и вот я снова здесь потому что нужно для подружки сдать все документы для защиты диплома,negative,1308371655362777089,negative,negative,neutral,negative,True,False,True,only_bert_wrong,,
+"@exollskx да-да,щас прям мы тебя и отпустили,ага",neutral,1321721231578669057,neutral,positive,negative,neutral,False,False,True,both_wrong_hybrid_correct,,
+@chan_boobooo Бб крем-пальцами.. 🤡,neutral,1278421938227027968,neutral,negative,positive,neutral,False,False,True,both_wrong_hybrid_correct,,
+"@newnightmr Жиза жесть. Только у меня даже цвет волос не меняется всё такая же с класса так 6-ого :"""")",positive,1327750447139065858,positive,negative,neutral,positive,False,False,True,both_wrong_hybrid_correct,,
+я считаю это мем года https://t.co/xoVKj5y8Mj,positive,1218052288964632576,positive,neutral,neutral,neutral,False,False,False,all_wrong,,
+"ян русский на сотку все запятые где надо🤙🏻👍🏻👍🏻👍🏻👍🏻
+я ещё сидел думал чо не так с этим твитом",positive,1212859589592539136,positive,neutral,neutral,neutral,False,False,False,all_wrong,,
+@Oppocum09 У нас в столовке лудшая греча с мясом,positive,1342081746351902722,positive,neutral,neutral,neutral,False,False,False,all_wrong,,
+@ineedanescap Волнуемся🤗,positive,1299341348181626882,positive,neutral,neutral,neutral,False,False,False,all_wrong,,
+Вот и чудно.,positive,1278328476572037121,positive,neutral,negative,negative,False,False,False,all_wrong,,
+"По словам разработчиков, эффективность российского препарата выше 80%.",positive,1271081922987425793,positive,neutral,neutral,neutral,False,False,False,all_wrong,,
+@flufairii как же секси скажии,positive,1337310822020870144,positive,neutral,neutral,neutral,False,False,False,all_wrong,,
+@niemalsnoch @veritas_z ну кто ты и кто залина. камон,negative,1222530329229103106,negative,neutral,neutral,neutral,False,False,False,all_wrong,,
+"НЕ НУ ВЫ ВИДЕЛИ ЧЕ ТВОРЯТ???
+
+#NCT127 #Punch
+#NCT127_Punch
+#NeoZone_TheFinalRound",negative,1262762680416256000,negative,neutral,neutral,neutral,False,False,False,all_wrong,,
+💢Кто и что вас бесит?💢😾,neutral,1310166670640586752,neutral,negative,negative,negative,False,False,False,all_wrong,,
+@vova_kovynev @mexelmexel @quintocolumno1 моргалы выколю https://t.co/XcxE9XXzd9,negative,1237800280131076097,negative,neutral,neutral,neutral,False,False,False,all_wrong,,
+самый сильный аргумент educate yourself 👍 используйте почаще 👍,positive,1281210475104043008,positive,neutral,neutral,neutral,False,False,False,all_wrong,,
+Релиз альбома SuperM меня почему-то вогнал в уныние. Ещё больше захотелось увидеть ЕХО всех вместе...,neutral,1309441752303050752,neutral,negative,negative,negative,False,False,False,all_wrong,,
+"@J3EhcJjfgGsGQ83 @M_Borzykin При чем тут удар в лицо. Он не играл в мяч, умвшленный удар по ногам.",neutral,1287308733069090817,neutral,negative,negative,negative,False,False,False,all_wrong,,
+@vassural Молодцы кубинцы. А мы их в 90ых предали.,positive,1308688149124648961,positive,negative,negative,negative,False,False,False,all_wrong,,

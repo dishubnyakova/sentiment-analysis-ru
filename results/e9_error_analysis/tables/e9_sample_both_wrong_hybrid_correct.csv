@@ -1,0 +1,4 @@
+﻿text,label,id,y_true,pred_classical,pred_bert,pred_hybrid,classical_correct,bert_correct,hybrid_correct
+"@exollskx да-да,щас прям мы тебя и отпустили,ага",neutral,1321721231578669057,neutral,positive,negative,neutral,False,False,True
+@chan_boobooo Бб крем-пальцами.. 🤡,neutral,1278421938227027968,neutral,negative,positive,neutral,False,False,True
+"@newnightmr Жиза жесть. Только у меня даже цвет волос не меняется всё такая же с класса так 6-ого :"""")",positive,1327750447139065858,positive,negative,neutral,positive,False,False,True
