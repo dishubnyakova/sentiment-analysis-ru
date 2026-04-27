@@ -2,8 +2,10 @@ pandas
 numpy
 scikit-learn
 matplotlib
+torch
 transformers
 datasets
 accelerate
 evaluate
-torch
+jupyter
+notebook
